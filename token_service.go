@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	pb "github.com/Punam-Gaikwad/microservices/user-service/proto/user"
+	pb "github.com/Punam-Gaikwad/user-service/proto/user"
 	"github.com/dgrijalva/jwt-go"
 )
 

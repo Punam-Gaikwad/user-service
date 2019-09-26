@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/Punam-Gaikwad/microservices/user-service/proto/user"
+	pb "github.com/Punam-Gaikwad/user-service/proto/user"
 	"golang.org/x/crypto/bcrypt"
 	"golang.org/x/net/context"
 )

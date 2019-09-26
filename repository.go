@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "github.com/Punam-Gaikwad/microservices/user-service/proto/user"
+	pb "github.com/Punam-Gaikwad/user-service/proto/user"
 	"github.com/jinzhu/gorm"
 )
 
