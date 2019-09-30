@@ -23,6 +23,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Could not connect to DB: %v", err)
 	}
+	log.Println("Connected to postgres database")
 
 	//will add missing only missing fields, won't delete/change current data
 	db.AutoMigrate(&pb.User{})
